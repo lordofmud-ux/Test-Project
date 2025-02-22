@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top:100px ;
+    background-color:#D6E1F0;
+
+}
+.parent{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FAFCFD;
+    border-radius: 13px;
+    overflow: hidden;
+    flex-flow: column wrap;
+    .child{
+        width: 220px;
+        height: 220px;
+        background-color:#3785FF;
+        border-radius: 8px;
+        margin-top: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 120px;
+            height: 120px;
+
+        }
+
+    }
+    .child2{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h3{
+       margin-top: 30px;
+    }
+    
+}
