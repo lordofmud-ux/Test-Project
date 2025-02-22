@@ -1,4 +1,5 @@
 body{
+    position: relative;
     display: flex;
     justify-content: center;
     margin-top:100px ;
@@ -6,8 +7,8 @@ body{
 
 }
 .parent{
-    width: 250px;
-    height: 400px;
+    width: 320px;
+    height: 490px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -16,17 +17,17 @@ body{
     overflow: hidden;
     flex-flow: column wrap;
     .child{
-        width: 220px;
-        height: 220px;
+        width: 288px;
+        height: 288px;
         background-color:#3785FF;
-        border-radius: 8px;
+        border-radius: 16px;
         margin-top: 17px;
         display: flex;
         justify-content: center;
         align-items: center;
         img{
-            width: 120px;
-            height: 120px;
+            width: 200px;
+            height: 200px;
 
         }
 
@@ -35,12 +36,22 @@ body{
         width: 100%;
         height: 70px;
         display: flex;
-        justify-content: center;
         align-items: center;
+        text-align: center;
+        flex-flow: column nowrap;
         
     }
-    h3{
-       margin-top: 30px;
+    h1{
+       margin-top: 24px;
+       font-size: 22px;
+       color: #1F314F;
+       line-height: 120%;
+       font-weight: 700;
     }
-    
+    p{
+        color: #68778D;
+        line-height: 140%;
+        font-size: 15px;
+        font-weight: 600;
+    }
 }
